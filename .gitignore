@@ -1,10 +1,33 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# Airflow logs
+logs/
+*.log
 
-# Virtual environments
+# Airflow local config/secrets
+.env
+airflow.cfg
+webserver_config.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Docker temporary files
+*.pid
+
+# Credentials / keys
+*.pem
+*.key
+*.json
+credentials/
+secrets/
+
+#virtual environment
 .venv
