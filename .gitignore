@@ -19,7 +19,7 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Docker temporary files
+# Docker temporary file
 *.pid
 
 # Credentials / keys
