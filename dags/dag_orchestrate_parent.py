@@ -19,8 +19,8 @@ def dag_orchestrate_parent():
     )
 
     trigger_second_dag = TriggerDagRunOperator(
-        task_id="trigger_second_orchestrator_dag",
-        trigger_dag_id="second_orchestrator_dag",
+        task_id="trigger_secon_orchestrator_dag",
+        trigger_dag_id="secon_orchestrator_dag",
         wait_for_completion=True # Optional (This is slow): Waits for the triggered DAG to complete
     )
 
