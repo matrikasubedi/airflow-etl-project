@@ -5,8 +5,8 @@ from airflow.timetables.interval import CronDataIntervalTimetable
 
 @dag(
     schedule=CronDataIntervalTimetable("@daily",timezone="America/Halifax"),
-    start_date=datetime(year=2026, month=1, day=26, tz="America/Halifax"),
-    end_date=datetime(year=2026, month=1, day=31, tz="America/Halifax"),
+    start_date=datetime(year=2026, month=6, day=1, tz="America/Halifax"),
+    end_date=datetime(year=2026, month=6, day=4, tz="America/Halifax"),
     catchup=True
 )
 def incremental_load_dag():
