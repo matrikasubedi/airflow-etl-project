@@ -23,7 +23,7 @@ def delta_schedule_dag():
     
     @task.python
     def third_task():
-        print("This is the third task. DAG complete!")
+        print("This is the third task. DAG completed!")
     
     
     # Defining task dependencies
